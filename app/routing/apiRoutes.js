@@ -1,20 +1,15 @@
-//apiRoutes.js
-//first we will grab the prefilled out data from the friends.js file.
 var friends = require('../data/friends.js');
-//console.log(friends[0].name);
+
 module.exports = function(app){
 
 
-	//first we will set up the route to display the raw Json data.
+
 	app.get("/api/friends", function(request, response){
 	        response.json(friends);
 	    });
 	app.post("/api/friends", function(request, response){
 		var newFriend = request.body;
-		//console.log(friends[0].score[0]);
-
- //console.log(newFriend);
-        
+	
         for(var i = 0; i < newFriend.scores.length; i++){
             if(newFriend.scores[i] === "1 (Strongly Disagree)"){
                 newFriend.scores[i] = 1;

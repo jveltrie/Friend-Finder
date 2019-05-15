@@ -4,7 +4,8 @@
   "description": "Friend Finder homework",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,8 @@
   },
   "homepage": "https://github.com/jveltrie/Friend-Finder#readme",
   "dependencies": {
+    "express": "^4.16.4",
     "inquirer": "^6.3.1"
-  }
+  },
+  "devDependencies": {}
 }
