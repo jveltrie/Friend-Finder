@@ -52,22 +52,5 @@ module.exports = function(app){
         
         response.json(friends[index]);
         
-
-		//first we will cycle through the clients array which is nested in our friends variable.
-			// we will need two for loops, one to go through each member of the clients array, and then a second one to go through each answer to that client in that index slot.
-			//for(i = 0; i < friends.length; i++){
-			//	var cycleFriend = friends[i];
-			//	console.log('hey now!' + cycleFriend);
-				//console.log('friend here: ' + friends[i]);
-				//for(j = 0; j < friends[i].score.length; j++){
-
-				//}
-			//}
-
-		//send a response back to survey.html
-			//will need the index of the chosen file.
-		//response.json(friends);
-		//push new user into json database:
-		//friends.push(newFriend);
     })
 }
