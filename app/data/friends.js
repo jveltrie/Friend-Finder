@@ -5,7 +5,7 @@ var Clients = [{
 		 ]
 },{
 	"name":"Groot",
-	"photo":"https://freepngimg.com/png/20698-mario-transparent-background",
+	"photo":"https://www.deviantart.com/metropolis-hero1125/art/Guardians-of-the-Galaxy-Vol-2-Baby-Groot-PNG-679026112",
 	 "scores":[ '2','2','4','5','2','2','5','3','1','2'
 		 ]
 },{
@@ -14,8 +14,8 @@ var Clients = [{
 	 "scores":[ '4','2','1','5','3','1','3','2','4','5'
 		 ]
 },{
-	"name":"Mickey",
-	"photo":"https://emojiisland.com/pages/download-new-emoji-icons-in-png-ios-10",
+	"name":"Sonic",
+	"photo":"https://sonicfanchara.fandom.com/wiki/Zack_the_hedgehog",
 	 "scores":[ '1','3','5','5','2','2','3','4','1','5'
 	 	]
 }];
